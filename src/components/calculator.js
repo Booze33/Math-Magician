@@ -1,10 +1,11 @@
 import React from 'react';
+import Display from './display';
 import './Calculator.css';
 
 function Calculator() {
   return (
     <div className="calculator">
-      <div className="Display div">0</div>
+      <Display value={0} />
       <div className="frs-div div grid">
         <button className="number number-AC" type="button">AC</button>
         <button className="number number-+-" type="button">+/-</button>
