@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 function Quote() {
   const [quote, setQuote] = useState(null);
+  const [author, setAuthor] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -27,6 +28,7 @@ function Quote() {
     fetchQuote()
       .then((data) => {
         setQuote(data[Math.floor(Math.random())].quote);
+        setAuthor(data[0].author);
         setLoading(false);
       })
       .catch((error) => {
@@ -51,6 +53,7 @@ function Quote() {
   return (
     <div>
       <p>{quote}</p>
+      <h3>{author}</h3>
     </div>
   );
 }
