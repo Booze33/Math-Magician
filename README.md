@@ -51,7 +51,10 @@
 ### Key Features <a name="key-features"></a>
 
 > Here are some key features of the application :
-- N/A
+- You have a quote given to you after every refresh
+- You have a calculator that you can use for quick calculation
+- App was created with react
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
