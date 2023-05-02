@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './quote.css';
 
 function Quote() {
   const [quote, setQuote] = useState(null);
@@ -51,9 +52,12 @@ function Quote() {
   }
 
   return (
-    <div>
+    <div className="qoute">
       <p>{quote}</p>
-      <h3>{author}</h3>
+      <h3>
+        {author}
+        .
+      </h3>
     </div>
   );
 }
