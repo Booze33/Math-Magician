@@ -4,11 +4,11 @@ body {
 }
 
 .body {
-  background-color: #000;
+  background-color: #58525f;
   border-top-left-radius: 90px;
   box-shadow: inset 85px 85px 60px #1f013e, inset 135px -135px 70px #47236c;
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   margin-top: 0;
   display: flex;
   flex-direction: column;
