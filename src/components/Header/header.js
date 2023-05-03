@@ -17,6 +17,7 @@ function Header() {
           <Link to="/quote" className="button">Quote</Link>
         </button>
       </nav>
+
       <Outlet />
     </div>
   );

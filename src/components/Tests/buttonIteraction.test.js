@@ -9,5 +9,6 @@ test('Resets the calculator state when the AC button is clicked', () => {
   fireEvent.click(acButton);
 
   const display = getByText('7');
+
   expect(display.textContent).toBe('7');
 });
