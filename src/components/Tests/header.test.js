@@ -1,12 +1,15 @@
-import { cleanup } from '@testing-library/react';
-import renderer from 'react-test-renderer';
+import React from 'react';
+import { render } from '@testing-library/react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Header from '../Header/header';
 
-afterEach(() => {
-  cleanup();
-});
-
-test('Test loading screen', () => {
-  const tree = renderer.create(<Header />).toJSON();
-  expect(tree).toMatchSnapshot();
+describe('Header', () => {
+  it('renders correctly', () => {
+    const { container } = render(
+      <Router>
+        <Header />
+      </Router>
+    );
+    expect(container).toMatchSnapshot();
+  });
 });

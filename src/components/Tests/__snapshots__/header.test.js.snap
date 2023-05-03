@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <h1
+      class="h1"
+    >
+      Math Magic
+    </h1>
+    <nav
+      class="nav"
+    >
+      <button
+        type="button"
+      >
+        <a
+          class="button"
+          href="/"
+        >
+          Home
+        </a>
+      </button>
+      <button
+        type="button"
+      >
+        <a
+          class="button"
+          href="/calculator"
+        >
+          Calculator
+        </a>
+      </button>
+      <button
+        type="button"
+      >
+        <a
+          class="button"
+          href="/quote"
+        >
+          Quote
+        </a>
+      </button>
+    </nav>
+  </div>
+</div>
+`;
