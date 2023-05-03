@@ -28,7 +28,7 @@ describe('Addition', () => {
     expect(result).toBe('2');
   });
 
-  test('4 x 2 == 2?', () => {
+  test('4 x 2 == 8?', () => {
     const firstNumber = 4;
     const secondNumber = 2;
     const operation = 'x';
