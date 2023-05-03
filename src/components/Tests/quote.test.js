@@ -1,12 +1,12 @@
 import { cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Home from '../Home/home';
+import Quote from '../Quotes/quote';
 
 afterEach(() => {
   cleanup();
 });
 
-test('Test paragraph-1', () => {
-  const tree = renderer.create(<Home />).toJSON();
+test('Test loading screen', () => {
+  const tree = renderer.create(<Quote />).toJSON();
   expect(tree).toMatchSnapshot();
 });
