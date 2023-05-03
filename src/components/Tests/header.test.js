@@ -8,7 +8,7 @@ describe('Header', () => {
     const { container } = render(
       <Router>
         <Header />
-      </Router>
+      </Router>,
     );
     expect(container).toMatchSnapshot();
   });
