@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="body">
       <div className="style">
-        <h1>Welcome To My Page</h1>
+        <h1>Hello Friend! Welcome To My Page</h1>
         <p>
           We are excited to have you here and provide you with a
           reliable and easy-to-use calculator
