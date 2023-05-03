@@ -54,8 +54,8 @@ function Calculator() {
       </div>
       <div className="fth-div div grid">
         <button className="number number-0" type="button" onClick={handleClick}>0</button>
-        <button className="number number-." type="button" onClick={handleClick}>.</button>
-        <button className="number number-= color" type="button" onClick={handleClick}>=</button>
+        <button className="number number---" type="button" onClick={handleClick}>.</button>
+        <button className="number number-num color" type="button" onClick={handleClick}>=</button>
       </div>
     </div>
   );
