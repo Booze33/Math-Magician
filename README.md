@@ -48,6 +48,10 @@
 
 <!-- Features -->
 
+### Live Demo
+
+Run [live](https://math-magic-pyyr.onrender.com/).
+
 ### Key Features <a name="key-features"></a>
 
 > Here are some key features of the application :
