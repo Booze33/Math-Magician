@@ -7,31 +7,15 @@
   margin-top: -8rem;
   border-bottom: 2px solid #000;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border-bottom-left-radius: 58px;
-  background: #5e1ca0;
-  box-shadow: inset -22px -12px 44px #310760, inset 22px 22px 44px #d4a8ff;
+  background: #001e2c;
 }
 
 .h1 {
   font-size: 40px;
   font-weight: 900;
   font-style: italic;
-  animation: header 1s ease 1;
   margin-left: -2rem;
-}
-
-@keyframes header {
-  0% {
-    transform: translateX(100rem);
-  }
-
-  50% {
-    transform: translateX(100rem);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
+  color: #fff;
 }
 
 .button {
@@ -39,19 +23,16 @@
   padding: 7px;
   height: 2rem;
   border: none;
-  color: #2b2234;
+  color: #fff;
   text-decoration: none;
   font-size: 1.5rem;
   transition: all 1.5s;
   font-style: italic;
-  border-radius: 71px;
-  background: #5e1ca0;
-  box-shadow: inset 13px 13px 26px #431472, inset -13px -13px 26px #7924ce;
 }
 
 .button:hover {
   text-decoration: underline;
-  color: #000;
+  color: #fff;
   font-size: 1.8rem;
   font-style: oblique;
   transition: all 1.5s;

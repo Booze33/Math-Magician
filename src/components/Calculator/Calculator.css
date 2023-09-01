@@ -4,22 +4,9 @@ body {
   padding-top: 10%;
   justify-content: center;
   align-items: center;
-  background-color: #c4a9f3;
+  background-color: #085567;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-/* .body {
-  background-color: #000;
-  border-top-left-radius: 90px;
-  box-shadow: inset 85px 85px 60px #1f013e, inset 135px -135px 70px #47236c;
-  width: 100%;
-  height: 90vh;
-  margin-top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 
 .calculator {
   margin-top: 6rem;
@@ -30,14 +17,13 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: repeat(6, 1fr);
   border-radius: 60px;
-  background: #5e1ca0;
-  box-shadow: 31px 31px 62px #340f58, -31px -31px 62px #8829e8;
+  background: #085567;
+  box-shadow: 31px 31px 62px #07596c, -31px -31px 62px #20798b;
 }
 
 .div {
   height: 4rem;
   width: 100%;
-  background-color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +57,7 @@ body {
 }
 
 .color {
-  background-color: rgb(107, 11, 175);
+  background-color: #20798b;
   width: 94%;
 }
 
