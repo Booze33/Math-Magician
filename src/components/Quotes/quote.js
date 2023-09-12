@@ -53,7 +53,7 @@ function Quote() {
 
   return (
     <div className="qoute">
-      <p>{quote}</p>
+      <p>{`"${quote}"`}</p>
       <h3>
         {author}
         .

@@ -1,3 +1,13 @@
 .qoute {
-  padding: 3rem;
+  padding: 4rem;
+}
+
+.qoute p {
+  color: #fff;
+  font-size: larger;
+}
+
+.qoute h3 {
+  color: #fff;
+  font-size: 40px;
 }
